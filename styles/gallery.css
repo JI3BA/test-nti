@@ -1,9 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/circe');
+
 .gallery{
     background: #f2f2f2;
     display: flex;
     justify-content: center;
 }
 
-.container{
-    padding: 41px 0 47px 0;
+.gallery-container{
+    position: relative;
+}
+
+.offers{
+    display: flex;
+}
+
+.swiper__background{
+    position: absolute;
+    left: 0;
+    top: 97.4px;
+    z-index: 1;
+}
+
+.swiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper__desc{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 158px;
+}
+
+.swiper__desc--second{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+.scroll__text{
+    display: flex;
+    align-items: center;
+    padding-top: 16.5px;
+    color:#838383;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 19px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 155.6px 0 0 105px;
+    z-index: 2;
+}
+
+.description__text{
+    color: #838383;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.description__title{
+    min-width: 446px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 50px;
+    color: #292D32;
+    line-height: 59px;
+    padding: 15px 0 60px 0;
+}
+
+.description__wrap{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.more{
+    display: flex;
+}
+
+.more__button{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background: #33A9FF;
+    color: #FFFFFF;
+    font-family: 'Circe Bold', sans-serif;
+    font-weight: bold;
+    font-size: 18.74px;
+    line-height: 35.14px;
+    cursor: pointer;
+}
+
+.more__text{
+    display: flex;
+    align-items: center;
+    color: #292D32;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 12px;
+}
+
+.swiper__image{
+    position: relative;
+    top: 74px;
+    left: -42px;
+    max-width: 557px;
+    width: 100%;
+    object-fit: cover;
+    height: 555px;
+    z-index: 2;
 }
