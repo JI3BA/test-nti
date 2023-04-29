@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/rubik-one');
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+
+.advantages{
+    background: #F2F2F2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 87px 0 48px 189px;
+}
+
+.advantages-logo__rear{
+    width: 879px;
+    font-family: 'Rubik One', sans-serif;
+    position: absolute;
+    top: 152px;
+    left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 187px;
+    line-height: 173px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.advantages-logo__image{
+    max-width: 874px;
+    width: 100%;
+    z-index: 2;
+}
+
+.description-advantages{
+    margin: 0;
+    position: relative;
+    left: -80px;
+}
+
+.description-advantages__title{
+    line-height: 50px;
+    padding: 0;
+}
+
+.description-advantages__text{
+    min-width: 518px;
+    width: 100%;
+    padding: 37px 0 41px 0;
+}
+
+.advantages-card{
+    max-width: 330px;
+    width: 100%;
+    background: #292D32;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1px 1px 35px 30px;
+    margin-bottom: 46px;
+}
+
+.advantages-card__icon{
+    background: #343A41;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-card__title{
+    max-width: 205px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-family: 'Euclid Circular A', sans-serif;
+    padding: 25px 0 13px 0;
+}
+
+.advantages-card_-description{
+    max-width: 276px;
+    width: 100%; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B7B7B7;
+    font-family: 'Euclid Circular A', sans-serif;
+}

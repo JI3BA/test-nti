@@ -2,6 +2,7 @@
 @import './header.css';
 @import './gallery.css';
 @import './catalog.css';
+@import './advantages.css';
 
 *{
     margin: 0;
