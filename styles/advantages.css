@@ -63,6 +63,8 @@
 }
 
 .advantages-card{
+    max-width: 330px;
+    width: 100%;
     background: #292D32;
     border-radius: 18px;
     display: flex;
@@ -101,7 +103,6 @@
     color: #FFFFFF;
     font-family: 'Euclid Circular A', sans-serif;
     padding: 25px 0 13px 0;
-    margin-right: 23px;
 }
 
 .advantages-card_-description{
