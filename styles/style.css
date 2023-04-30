@@ -4,6 +4,7 @@
 @import './catalog.css';
 @import './advantages.css';
 @import './news.css';
+@import './contacts.css';
 
 *{
     margin: 0;
