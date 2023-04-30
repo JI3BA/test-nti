@@ -6,7 +6,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .advantages-logo{
@@ -36,8 +35,7 @@
 }
 
 .advantages-logo__image{
-    max-width: 874px;
-    width: 100%;
+    width: 874px;
     z-index: 2;
 }
 
@@ -58,9 +56,13 @@
     padding: 37px 0 41px 0;
 }
 
+.advantages-cards{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 269px;
+}
+
 .advantages-card{
-    max-width: 330px;
-    width: 100%;
     background: #292D32;
     border-radius: 18px;
     display: flex;
@@ -69,6 +71,7 @@
     align-items: flex-start;
     padding: 1px 1px 35px 30px;
     margin-bottom: 46px;
+    position: relative;
 }
 
 .advantages-card__icon{
@@ -82,8 +85,14 @@
     align-items: center;
 }
 
+.advantages-card__line{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .advantages-card__title{
-    max-width: 205px;
+    max-width: 276px;
     width: 100%;
     font-style: normal;
     font-weight: 700;
@@ -92,6 +101,7 @@
     color: #FFFFFF;
     font-family: 'Euclid Circular A', sans-serif;
     padding: 25px 0 13px 0;
+    margin-right: 23px;
 }
 
 .advantages-card_-description{
