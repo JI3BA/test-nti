@@ -3,6 +3,7 @@
 @import './gallery.css';
 @import './catalog.css';
 @import './advantages.css';
+@import './news.css';
 
 *{
     margin: 0;

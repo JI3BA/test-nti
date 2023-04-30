@@ -1,0 +1,144 @@
+.news{
+    display: flex;
+    justify-content: center;
+}
+
+.news-container{
+    max-width: 1521px;
+    width: 100%;
+    padding: 172px 60px 0 60px;
+}
+
+.description-news{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.description-news__title{
+    padding: 0;
+}
+
+.description-news__text{
+    max-width: 721px;
+    width: 100%;
+    padding: 25px 0 69px 0;
+}
+
+.more-news__text{
+    padding-left: 0;
+    padding-right: 17px;
+}
+
+.news-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.novelty{
+    max-width: 454px;
+    width: 100%;
+    height: 364px;
+    margin-bottom: 20px;
+    position: relative;
+    filter: drop-shadow(0px 40px 80px rgba(0, 0, 0, 0.05));
+}
+
+.preview{
+    max-width: 415px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 45px 0 0 0;
+}
+
+.date{
+    position: absolute;
+    top: 65px;
+    right: 14px;
+    width: 50px;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    padding: 24px 0;
+}
+
+.date__number{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #292D32;
+}
+
+.date__text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 11.72px;
+    text-align: center;
+    color: #292D32;
+    padding-top: 10px;
+}
+
+.info{
+    position: relative;
+    top: -43px;
+    width: 415px;
+    background: url(../images/main/news/rear-info.svg), transparent;
+    padding: 24px 20px 26px 30px;
+}
+
+.info__title{
+    max-width: 268px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #292D32;
+    padding-bottom: 11px;
+}
+
+.info__description{
+    max-width: 365px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #292D32;
+}
+
+.button-container{
+    position: absolute;
+    top: 24px;
+    right: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info__button{
+    position: relative;
+    top: -45px;
+    right: -15px;
+    width: 67px;
+    height: 67px;
+    border: 12px solid #FFFFFF;
+    border-radius: 50%;
+    background: #292D32;
+    font-family: 'Circe', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.7429px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
