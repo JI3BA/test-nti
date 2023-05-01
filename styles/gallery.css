@@ -4,6 +4,7 @@
     background: #f2f2f2;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .gallery-container{
@@ -124,4 +125,51 @@
     object-fit: cover;
     height: 555px;
     z-index: 2;
+}
+
+.profitable{
+    background: #F9F9F9;
+    max-width: 509px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.profitable__image{
+    width: 716px;
+    height: 725px;
+    position: absolute;
+    background: url(../images/main/gallery/second-laptop.png), rgba(255, 255, 255, 0.5);
+    background-position: center;
+    bottom: 203px;
+    right: -207px;
+    z-index: 2;
+}
+
+.profitable__image::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(255, 255, 255, .8);
+}
+
+.profitable__image::after{
+    content: 'Выгодное предложение от Dell';
+    position: absolute;
+    left: 40px;
+    bottom: 63px;
+    width: 181px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #292D32;
 }
