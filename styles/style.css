@@ -5,6 +5,7 @@
 @import './advantages.css';
 @import './news.css';
 @import './contacts.css';
+@import './footer.css';
 
 *{
     margin: 0;

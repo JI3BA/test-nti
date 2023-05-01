@@ -1,0 +1,122 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__text--background{
+    position: absolute;
+    top: 133px;
+    right: -36px;
+    font-family: 'Rubik One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 187px;
+    line-height: 173px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F2F2F2 0%, rgba(242, 242, 242, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.7;
+}
+
+.footer-info{
+    padding: 60px 0;
+    display: flex;
+}
+
+.footer__link{
+    display: flex;
+    align-items: center;
+}
+
+.sections{
+    display: flex;
+    padding-left: 190px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section:nth-child(1){
+    width: 214px;
+}
+
+.section:nth-child(2){
+    width: 195px;
+    margin: 0 180px;
+}
+
+.section:nth-child(3){
+    width: 139px;
+}
+
+.section__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+    color: #292D32;
+    padding-bottom: 15px;
+}
+
+.section__name{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #292D32;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.section__name:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.footer__line{
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+}
+
+.footer-connection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0 40px 0;
+}
+
+.connection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.connection__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #838383;
+}
+
+.connection__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #292D32;
+    padding-top: 11px;
+}
