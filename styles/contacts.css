@@ -139,8 +139,15 @@
     border-radius: 20px;
     background: transparent;
     outline: none;
-    padding: 20px 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 10px;
     color: #F2F2F2;
+}
+
+.input-box__input--invalid{
+    border: 1.5px solid rgba(255, 0, 0, 0.692);
 }
 
 .input-box__textarea{
@@ -150,15 +157,24 @@
 
 .input-box__name{
     position: absolute;
-    top: -11px;
+    top: -12px;
     left: 20px;
-    padding: 0 5px;
+    padding: 0 8px;
     color: #F2F2F2;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
     background: #292D32;
+}
+
+.input-box__name--invalid{
+    color:rgba(255, 0, 0, 0.692);
+}
+
+.input-box__name:nth-child(2){
+    padding: 0 8px 0 9px;
+    left: 17px;
 }
 
 .request__text{
