@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "swiper": "^9.2.4"
   }

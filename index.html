@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css" type="text/css">
+    <link rel="stylesheet" href="./styles/screen-phone.css" type="text/css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <title>Document</title>
 </head>
 <body>
@@ -110,58 +115,47 @@
         <div class="gallery">
             <div class="gallery-container wrapper">
                 <div class="offers">
+                    <div class="presentation">
+                        <img src="./images/main/gallery/dell-background.svg" class="presentation__background" alt="dell">
+    
+                        <div class="scroll">
+                            <p class="scroll__text">Scroll to catalog</p>
+                            <svg class="scroll__item" width="25" height="39" viewBox="0 0 25 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z" fill="#33A9FF"/>
+                            </svg>
+                        </div>
+                
+                        <div class="description">
+                            <p class="description__text">Новое поступление</p>
+                            <p class="description__title">Лучшие товары <span class="description__wrap">от компании Dell</span></p>
+                
+                            <div class="more">
+                                <button class="more__button">→</button>
+                                <p class="more__text">Подробнее</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="swiper">
-                        <div class="swiper__desc">
-                            <img src="./images/main/gallery/dell-background.svg" class="swiper__background" alt="dell">
-
-                            <div class="scroll">
-                                <p class="scroll__text">Scroll to catalog</p>
-                                <svg class="scroll__item" width="25" height="39" viewBox="0 0 25 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z" fill="#33A9FF"/>
-                                </svg>
-                            </div>
-        
-                            <div class="description">
-                                <p class="description__text">Новое поступление</p>
-                                <p class="description__title">Лучшие товары <span class="description__wrap">от компании Dell</span></p>
-        
-                                <div class="more">
-                                    <button class="more__button">→</button>
-                                    <p class="more__text">Подробнее</p>
-                                </div>
-                            </div>
-
-                            <img class="swiper__image" src="./images/main/gallery/first-laptop.png" alt="first-laptop">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="swiper__image" src="./images/main/gallery/first-laptop.png" alt="first-laptop"></div>
+                            <div class="swiper-slide"><img class="swiper__image" src="./images/main/gallery/second-laptop.png" alt="first-laptop"></div>
+                            <div class="swiper-slide"><img class="swiper__image" src="./images/main/gallery/first-laptop.png" alt="first-laptop"></div>
+                            <div class="swiper-slide"><img class="swiper__image" src="./images/main/gallery/second-laptop.png" alt="first-laptop"></div>
+                            <div class="swiper-slide"><img class="swiper__image" src="./images/main/gallery/first-laptop.png" alt="first-laptop"></div>
                         </div>
 
-                        <!-- <div class="swiper__desc swiper__desc--second">
-                            <div class="scroll">
-                                <p class="scroll__text">Scroll to catalog</p>
-                                <svg class="scroll__item" width="25" height="39" viewBox="0 0 25 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z" fill="#33A9FF"/>
-                                </svg>
-                            </div>
-        
-                            <div class="description">
-                                <p class="description__text">Новое поступление</p>
-                                <p class="description__title">Лучшие товары <span class="description__wrap">от компании Dell</span></p>
-        
-                                <div class="more">
-                                    <button class="more__button">→</button>
-                                    <p class="more__text">Подробнее</p>
-                                </div>
-                            </div>
-
-                            <img class="swiper__image" src="./images/main/gallery/second-laptop.png" alt="second-laptop">
-                        </div> -->
+                        <div class="swiper-my-pagination"></div>
                     </div>
-                </div>
 
+                    <svg class="swiper-btn--next" width="106" height="23" viewBox="0 0 106 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M94 1L104.5 11.5M104.5 11.5L94 22M104.5 11.5H0" stroke="#292D32" stroke-width="1.5"/>
+                    </svg>
+                </div>
             </div>
 
             <div class="profitable">
                 <p class="profitable__image"></p>
-             
             </div>
         </div>
 
@@ -686,6 +680,7 @@
         </div>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>

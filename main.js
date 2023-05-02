@@ -1,4 +1,4 @@
-////// DropDown
+///// DropDown
 const toogleDropDown = document.querySelector('.drop-down__change')
 const dropDown = document.querySelector('.drop-down')
 const windowAcount = document.querySelector('.personal')
@@ -46,3 +46,23 @@ document.querySelector('.request__button').addEventListener('click', function(e)
     }
 })
 
+
+let swiper = new Swiper('.swiper', {
+    loop: true,
+
+    pagination: {
+        el: '.swiper-my-pagination',
+        type: 'bullets',
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + '</span>';
+        },
+    },
+
+    mousewheel: true,
+    keyboard: true,
+
+    navigation: {
+        nextEl: '.swiper-btn--next',
+    }
+})

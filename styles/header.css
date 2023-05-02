@@ -13,7 +13,7 @@
 }
 
 .logo{
-    padding: 27px 0 26px 0;
+    padding: 25px 0 24px 0;
 }
 
 .navigation{
@@ -82,6 +82,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    padding-left: 1px;
     width: 16px;
     height: 16px;
     display: flex;
@@ -100,7 +101,7 @@
     background: #FFFFFF;
     border-radius: 20px;
     position: absolute;
-    top: 127px;
+    top: 123px;
     right: 66px;
     z-index: 5;
     opacity: 0;
