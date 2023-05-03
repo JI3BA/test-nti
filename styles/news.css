@@ -89,6 +89,10 @@
     padding-top: 10px;
 }
 
+.date__text::after{
+    content: 'июля';
+}
+
 .info{
     position: relative;
     top: -43px;

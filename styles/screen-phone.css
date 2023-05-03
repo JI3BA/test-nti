@@ -328,15 +328,77 @@
         line-height: 22px;
     }
 
+    .news-items{
+        padding-top: 39px;
+    }
+
     .novelty{
         max-width: 324px;
+        height: 293px;
     }
 
     .novelty__unmobile{
         display: none;
     }
 
+    .preview__image{
+        height: 205px;
+    }
+
+    .date{
+        width: 39.2px;
+        height: 76.06px;
+        top: 60px;
+        right: -19px;
+    }
+
+    .date__number{
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 13px;
+    }
+
+    .date__text{
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 10.75px;
+        text-transform: uppercase;
+    }
+
+    .date__text::after{
+        content: 'июл';
+        
+    }
+
     .info{
+        width: 325px;
+        padding: 21px 53px 20px 20px;
         background: url(../images/main/news/rear-info-mobile.svg), transparent;
+    }
+
+    .info__title{
+        width: 224px;
+        line-height: 25px;
+    }
+
+    .info__description{
+        width: 251px;
+    }
+
+    .info__button{
+        top: -36px;
+        right: -12px;
+        width: 56.18px;
+        height: 56.18px;
+    }
+
+    .button-container{
+        top: 17px;
+        right: 11px;
+    }
+
+    .button__rear{
+        width: 77.2px;
+        height: 29.1px;
     }
 }
