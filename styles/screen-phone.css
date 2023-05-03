@@ -46,6 +46,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 13px;
         width: 46px;
         height: 46px;
         background: #F9F9F9;
@@ -67,7 +68,7 @@
 
     .hamburger__line{
         height: 3px;
-        width: 32px;
+        width: 33px;
         border-radius: 20px;
         background: #292D32;
     }
@@ -118,6 +119,7 @@
       
     .burger__icon input[type="checkbox"]:checked ~ .hamburger__lines .line__one {
         transform: rotate(45deg);
+        padding-left: 13px;
     }
       
     .burger__icon input[type="checkbox"]:checked ~ .hamburger__lines .line__two {
@@ -126,6 +128,7 @@
       
     .burger__icon input[type="checkbox"]:checked ~ .hamburger__lines .line__three {
         transform: rotate(-45deg);
+        padding-left: 13px;
     }
 
     .burger__link{
