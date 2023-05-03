@@ -28,58 +28,6 @@
     z-index: 1;
 }
 
-.swiper{
-    width: 557px;
-    right: 43px;
-    margin: 73px 0 51px 0;
-}
-
-.swiper-wrapper{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.swiper__image{
-    max-width: 557px;
-    width: 100%;
-    object-fit: cover;
-    height: 555px;
-    z-index: 2;
-}
-
-.swiper-my-pagination{
-    position: absolute;
-    margin-bottom: 125px;
-    z-index: 5;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.swiper-pagination-bullet{
-    width: 5px !important;
-    height: 5px !important;
-    border-radius: 50%;
-    background: #D0D0D0;
-}
-
-.swiper-pagination-bullet-active{
-    width: 9px !important;
-    height: 9px !important;
-    border-radius: 50%;
-    --swiper-theme-color: #292D32;
-}
-
-.swiper-btn--next{
-    fill: #292D32;
-    cursor: pointer;
-    position: relative;
-    top: 150px;
-    right: -50px;
-    z-index: 3;
-}
-
 .scroll{
     padding-top: 104px;
     z-index: 2;
@@ -155,6 +103,57 @@
     padding-left: 12px;
 }
 
+.swiper{
+    width: 557px;
+    right: 43px;
+    margin: 73px 0 51px 0;
+}
+
+.swiper-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.swiper__image{
+    max-width: 557px;
+    width: 100%;
+    object-fit: cover;
+    height: 555px;
+    z-index: 2;
+}
+
+.swiper-my-pagination{
+    position: absolute;
+    margin-bottom: 125px;
+    z-index: 5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.swiper-pagination-bullet{
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50%;
+    background: #D0D0D0;
+}
+
+.swiper-pagination-bullet-active{
+    width: 9px !important;
+    height: 9px !important;
+    border-radius: 50%;
+    --swiper-theme-color: #292D32;
+}
+
+.swiper-btn--next{
+    fill: #292D32;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    right: -50px;
+    z-index: 3;
+}
 
 .profitable{
     background: #F9F9F9;
@@ -176,6 +175,10 @@
     bottom: 203px;
     right: -207px;
     z-index: 2;
+}
+
+.profitable__text{
+    display: none;
 }
 
 .profitable__image::before {

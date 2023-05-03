@@ -21,11 +21,322 @@
         height: 46px;
     }
 
+    .search{
+        padding: 0 30px 0 67px;
+    }
+
     .account__item:nth-child(3){
+        display: none;
+    }
+
+    .progress{
         display: none;
     }
     
     .personal__name{
         display: none;
+    }
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-container{
+        max-width: 345px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers{
+        flex-direction: column;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    .presentation__background{
+        width: 293px;
+        height: 77px;
+        top: 18px;
+    }
+
+    .description__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .more__text{
+        font-size: 15px;
+    }
+
+    .description__text{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .swiper{
+        width: 327px;
+        height: 325px;
+        right: 0;
+        margin: 16px 0 10px 0;
+    }
+
+    .swiper__image{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .swiper-my-pagination{
+        margin-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-pagination-bullet{
+        width: 3px !important;
+        height: 3px !important;
+    }
+    
+    .swiper-pagination-bullet-active{
+        width: 5px !important;
+        height: 5px !important;
+    }
+
+    .swiper-btn--next{
+        width: 64px;
+        height: 16px;
+        top: -43px;
+        right: -140px;
+    }
+
+    .profitable{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 196px;
+    }
+
+    .profitable__text{
+        display: flex;
+        width: 136px;
+        padding-left: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #292D32;
+        z-index: 6;
+    }
+
+    .profitable__image{
+        width: 252px;
+        height: 156px;
+        background-size: contain;
+        margin: 0 0 15px 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .profitable__image::after{
+        content: '';
+    }
+
+    .catalog-container{
+        padding: 120px 0;
+    }
+
+    .description-catalog{
+        max-width: 345px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .description-catalog__text{
+        max-width: 335px;
+        line-height: 22px;
+        padding: 20px 0 30px 0;
+    }
+
+    .product:nth-child(2){
+        margin-top: 40px;
+    }
+
+    .product:nth-child(n+4){
+        margin-top: 20px;
+    }
+
+    .product{
+        margin-top: 20px;
+    }
+
+    .product__number{
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .product__icon{
+        border-radius: 0;
+    }
+
+    .product__icon--laptop{
+        width: 302px;
+        height: 178px;
+        margin: 15px 22px 14px 21px;
+    }
+
+    .product__icon--pc{
+        width: 210px;
+        height: 193px;
+        margin: 10.53px 36px 15px 99px;
+    }
+
+    .product__icon--server{
+        width: 264.24px;
+        height: 107.42px;
+        margin: 63.51px 40.77px 50.07px 39.99px;
+    }
+
+    .product__icon--emc{
+        width: 226.6px;
+        height: 124.67px;
+        margin: 46.26px 59.59px 51.07px 58.81px;
+    }
+
+    .product__icon--foremc{
+        width: 253.26px;
+        height: 167.01px;
+        margin: 29.8px 23.52px 23.19px 68.22px;
+    }
+
+    .product__amount{
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+
+    .product__name{
+        font-size: 20px;
+        line-height: 30px;
+        padding: .2px 0 20px 20px;
+    }
+
+    .advantages{
+        align-items: center;
+        padding: 101px 0 115px 0;
+    }
+
+    .advantages-logo{
+        max-width: 345px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .advantages-logo__image{
+        position: absolute;
+        width: 345px;
+        height: 194px;
+        top: 260px;
+        left: 80px;
+    }
+
+    .advantages-logo__rear{
+        width: 335px;
+        top: 345px;
+        left: 15px;
+        font-size: 70px;
+        line-height: 75px;
+    }
+
+    .description-advantages{
+        left: 0;
+        padding-left: 0;
+    }
+
+    .description-advantages__text{
+        min-width: 336px;
+        width: 336px;
+        padding: 20px 0 30px 0;
+    }
+
+    .description__wrap--advantages{
+        display: contents;
+    }
+
+    .advantages-cards{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        z-index: 6;
+        margin-top: 179px;
+    }
+
+    .advantages-card{
+        max-width: 345px;
+        padding: 15px 11px 15px 15px;
+        margin-bottom: 20px;
+    }
+
+    .advantages-card__icon{
+        margin-top: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    .advantages-card__title{
+        max-width: 305px;
+        font-size: 18px;
+        line-height: 23px;
+        padding: 15px 0 10px 0;
+    }
+
+    .advantages-card_-description{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .advantages-card__line{
+        width: 96px;
+        height: 64px;
+    }
+
+    .news-container{
+        max-width: 345px;
+        padding: 120px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-news{
+        flex-direction: column;
+    }
+
+    .description-news__text{
+        width: 344px;
+        padding: 20px 0 30px 0;
+        line-height: 22px;
+    }
+
+    .novelty{
+        max-width: 324px;
+    }
+
+    .novelty__unmobile{
+        display: none;
+    }
+
+    .info{
+        background: url(../images/main/news/rear-info-mobile.svg), transparent;
     }
 }
