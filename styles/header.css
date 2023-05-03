@@ -159,3 +159,11 @@
     border: 1px solid #F2F2F2;
 }
 
+.burger__icon{
+    display: none;
+}
+
+.header__checkbox{
+    display: none;
+}
+

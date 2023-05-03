@@ -48,6 +48,25 @@
     align-items: flex-start;
 }
 
+.mobile__revers{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.reverse__name{
+    padding-left: 0;
+}
+
+.mobile__sections{
+    display: flex;
+}
+
+.mobile__section{
+    margin-right: 180px;
+}
+
 .section:nth-child(1){
     width: 214px;
 }
