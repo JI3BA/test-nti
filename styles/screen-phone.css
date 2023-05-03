@@ -113,8 +113,28 @@
         transition: transform 0.5s ease-in-out;
     }
 
+    .burger-navigation::after {
+        content: '';
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: .5s;
+    }
+
     .burger__icon input[type="checkbox"]:checked ~ .burger-navigation {
         transform: translateX(0);
+    }
+
+    .burger__icon input[type="checkbox"]:checked ~ .burger-navigation::after {
+        content: '';
+        position: absolute;
+        top: 410px;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        opacity: 1;
+        background: rgba(63, 63, 63, .5);
+
     }
       
     .burger__icon input[type="checkbox"]:checked ~ .hamburger__lines .line__one {
