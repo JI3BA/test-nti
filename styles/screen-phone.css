@@ -28,6 +28,7 @@
     
     .cart__amount{
         right: 15px;
+        padding-left: 0;
     }
 
     .account__item:nth-child(3){
@@ -46,7 +47,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 13px;
         width: 46px;
         height: 46px;
         background: #F9F9F9;
@@ -67,10 +67,9 @@
     }
 
     .hamburger__line{
-        height: 3px;
-        width: 33px;
-        border-radius: 20px;
-        background: #292D32;
+        width: 18px;
+        border-radius: 1.5px;
+        border: 1.5px solid #292D32;
     }
 
     .burger__icon .hamburger__lines {
@@ -139,16 +138,19 @@
       
     .burger__icon input[type="checkbox"]:checked ~ .hamburger__lines .line__one {
         transform: rotate(45deg);
-        padding-left: 13px;
     }
       
     .burger__icon input[type="checkbox"]:checked ~ .hamburger__lines .line__two {
         transform: scaleY(0);
+        margin: 4px 0;
+    }
+
+    .burger__icon input[type="checkbox"]:checked ~ .hamburger__lines {
+        left: 19px;
     }
       
     .burger__icon input[type="checkbox"]:checked ~ .hamburger__lines .line__three {
         transform: rotate(-45deg);
-        padding-left: 13px;
     }
 
     .burger__link{
@@ -698,6 +700,7 @@
         display: flex;
         flex-direction: row;
         padding-left: 15px !important;
+        padding-bottom: 30px;
     }
 
     .mobile__revers{
